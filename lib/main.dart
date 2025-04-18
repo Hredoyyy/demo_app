@@ -3,7 +3,7 @@ import 'package:demo_app/grad_container.dart';
 
 void main() {
   runApp(
-    MaterialApp(
+    const MaterialApp(
       home: Scaffold(
         body: GradientContainer(
           Color.fromARGB(255, 224, 101, 142),
